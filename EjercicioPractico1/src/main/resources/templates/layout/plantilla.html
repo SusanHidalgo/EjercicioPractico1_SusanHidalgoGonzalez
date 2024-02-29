@@ -55,7 +55,6 @@
                 </tr>
             </thead>
             <tbody>
-                <!-- Puedes iterar sobre tus libros y llenar la tabla con la información -->
                 <tr th:each="libro : ${libros}">
                     <td th:text="${libro.id}"></td>
                     <td th:text="${libro.titulo}"></td>
