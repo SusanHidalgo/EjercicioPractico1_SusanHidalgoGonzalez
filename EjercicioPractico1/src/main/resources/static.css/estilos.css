@@ -1,0 +1,64 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+
+
+body {
+    background-color: #FEEAEC; 
+}
+header {
+    position: fixed;
+    background-color: #FA9EA7;    
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%
+}
+header {
+    text-align: center; 
+}
+
+aside {
+    position: fixed;
+    background-color: #FEFEFE;   
+    top: 80px;
+    left: 0;
+    bottom: 20px;
+    width: 20%
+        
+}
+
+        
+section {
+    overflow-y: scroll;
+    position: fixed;
+    background-color: bisque;    
+    top: 80px;
+    left: 20%;
+    bottom: 20px;
+    width: 80%
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;        
+    text-align: center;
+    background-color: #FA9EA7; 
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    background-color: deeppink;
+    color: white;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: black;
+    color: white
+}
